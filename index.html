@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blackjack</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+    
+    <header class="titulo">
+        Blackjack
+    </header>
+                        <!-- BOTONES -->
+    <div clas="row mt-2">
+        <div id="divBotones" class="col text-center">
+            <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedir" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+        </div>
+
+    </div>
+    <!-- JUGADOR 1 -->
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <smal>0</smal></h1>
+            <div id="jugador-cartas">
+                <!-- <img src="assets/cartas/2c.png" class="carta"> -->
+            </div>
+        </div>
+    </div>
+    <!-- JUGADOR 2 -->
+    <div class="row container">
+        <div class="col">
+            <h1>Computadora 2 - <smal>0</smal></h1>
+            <div id="computadora-cartas">
+               
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+    <script src="assets/js/juego.js"></script>
+
+</body>
+</html>
